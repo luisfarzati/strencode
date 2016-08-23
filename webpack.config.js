@@ -17,5 +17,7 @@ module.exports = {
         loaders: ['babel-loader','eslint-loader']
       }
     ]
-  }
+  },
+
+  watch: true
 };

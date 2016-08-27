@@ -1,13 +1,9 @@
 {
-  "name": "learning-react",
+  "name": "strencode",
   "version": "1.0.0",
-  "description": "Setting up a React project",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
+  "description": "React exercise: a tool that encodes any string into hex, base64, MD5, SHA-1, SHA-256, SHA-512, SHA-3 and RIPEMD160 algorithms.",
+  "author": "Luis Farzati <lfarzati@gmail.com>",
+  "license": "MIT",
   "dependencies": {
     "babel-polyfill": "^6.13.0",
     "babel-runtime": "^6.11.6",

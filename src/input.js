@@ -13,7 +13,7 @@ export default class Input extends Component {
   }
   render() {
     return (
-      <input style={{ fontSize: '3rem', padding: '3rem 1rem' }} type="text" onChange={this.handleChange} placeholder="Type something here" autoFocus={true} />
+      <input style={{ fontSize: '3rem', padding: '25px 10px' }} type="text" onChange={this.handleChange} placeholder="Type something here" autoFocus={true} />
     )
   }
 }

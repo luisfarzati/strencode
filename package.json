@@ -4,13 +4,18 @@
   "description": "React exercise: a tool that encodes any string into hex, base64, MD5, SHA-1, SHA-256, SHA-512, SHA-3 and RIPEMD160 algorithms.",
   "author": "Luis Farzati <lfarzati@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "start": "webpack",
+    "dist": "NODE_ENV=production webpack --progress -p"
+  },
   "dependencies": {
     "babel-polyfill": "^6.13.0",
     "babel-runtime": "^6.11.6",
     "crypto-js": "^3.1.6",
     "milligram": "^1.1.0",
     "react": "^15.3.1",
-    "react-dom": "^15.3.1"
+    "react-dom": "^15.3.1",
+    "string.prototype.padstart": "^3.0.0"
   },
   "devDependencies": {
     "babel-core": "^6.13.2",

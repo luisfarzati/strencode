@@ -1,7 +1,7 @@
 {
   "name": "strencode",
   "version": "1.0.0",
-  "description": "React exercise: a tool that encodes any string into hex, base64, MD5, SHA-1, SHA-256, SHA-512, SHA-3 and RIPEMD160 algorithms.",
+  "description": "Convert, encode or hash any string using UTF-8, UTF-16, URI, Base64, MD5, SHA-1, SHA-256, SHA-512, SHA-3 and RIPEMD-160. Written for React learning purposes.",
   "author": "Luis Farzati <lfarzati@gmail.com>",
   "license": "MIT",
   "scripts": {

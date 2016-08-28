@@ -29,6 +29,7 @@
 		<meta name="twitter:title" content="Strencode | String conversion/encoding/hashing tool">
 		<meta name="twitter:description" content="Convert, encode or hash any string using UTF-8, UTF-16, URI, Base64, MD5, SHA-1, SHA-256, SHA-512, SHA-3 and RIPEMD-160.">
 		<meta name="twitter:image:src" content="https://strencode.com/img/thumbnail.jpg">
+    <meta name="google-site-verification" content="ZGACbqYsyndkJBmqYVrf5C_29tlahuYnDq65yhclCLM" />
 		<title>Strencode | String conversion/encoding/hashing tool</title>
 		<link rel="icon" href="https://strencode.com/img/favicon.ico">
 		<link rel="canonical" href="https://strencode.com/">
@@ -43,7 +44,8 @@
       input { font-size: 2rem; }
       input[type="text"] { height: auto; }
       p { font-size: 2rem; text-align: justify; }
-      nav { font-size: 1.8rem; text-align: baseline; }
+      nav { font-size: 1.8rem; text-align: right; }
+      .disqus-container { margin: 20px 0 0 -20px; padding: 20px; background-color: #222; }
     </style>
   </head>
   <body>
@@ -74,8 +76,8 @@
         <p>
           Type any string and it will be converted/encoded/hashed/encrypted automatically
           using the different encodings and algorithms below.
-          This tool is useful for educational purposes, programming, debugging or
-          just for fun.
+          Use this tool for educational purposes, programming, debugging or
+          just for fun!
         </p>
         <div id="main"></div>
       </div>
@@ -83,12 +85,13 @@
       </div>
     </main>
 
-    <footer class="row">
-      <div class="column" style="text-align:center;margin-bottom:50px">
-        asd
+    <footer class="row" style="border-top: 1px solid #e1e1e1; padding-top: 10px; margin-top: 10px; margin-bottom:20px">
+      <div class="column">
+        <span>Written by <a href="https://twitter.com/luisfarzati">@luisfarzati</a> as a React learning exercise.</span>
+        <span>Check out the <a href="https://github.com/luisfarzati/strencode">source project at GitHub.</a></span>
+        <span>This tool uses <a href="https://github.com/brix/crypto-js">CryptoJS</a>.</span>
       </div>
     </footer>
-
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -97,6 +100,19 @@
       ga('create', 'UA-10255892-12', 'auto');
       ga('send', 'pageview');
     </script>
+
+    <div class="row disqus-container">
+      <div id="disqus_thread" class="column"></div>
+    </div>
+    <script>
+      (function() { // DON'T EDIT BELOW THIS LINE
+          var d = document, s = d.createElement('script');
+          s.src = '//strencode.disqus.com/embed.js';
+          s.setAttribute('data-timestamp', +new Date());
+          (d.head || d.body).appendChild(s);
+      })();
+    </script>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.3.1/react.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.3.1/react-dom.min.js"></script>
     <script src="app.min.js"></script>
